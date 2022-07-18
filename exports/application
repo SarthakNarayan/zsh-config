@@ -1,0 +1,15 @@
+#!/bin/sh
+
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+# nvm (node) 
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+
+# rust
+# . "$HOME/.cargo/env"
+
+# maven path
+export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
+export PATH=$MAVEN_HOME/bin:$PATH

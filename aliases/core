@@ -1,0 +1,9 @@
+#!/bin/sh
+
+alias rc='vim ~/.zshrc'
+alias sc='source ~/.zshrc'
+alias c='clear'
+alias history="history -t '%F'" 
+#alias history="history -t '%F %T'" 
+alias cp="cp -v"
+alias mv="mv -v"

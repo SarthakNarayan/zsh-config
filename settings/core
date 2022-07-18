@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Colors
+autoload -Uz colors && colors
+
+# some useful options (man zshoptions)
+setopt autocd extendedglob nomatch menucomplete
+setopt interactive_comments
+
+# completions
+autoload -Uz compinit
+# compinit #https://apple.stackexchange.com/questions/296477/my-command-line-says-complete13-command-not-found-compdef
+zstyle ':completion:*' menu select
+zmodload zsh/complist

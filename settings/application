@@ -1,0 +1,20 @@
+#!/bin/sh
+
+########### autojump ###########
+# Installation: brew install autojump
+# GitHub: https://github.com/wting/autojump 
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+########### fzf ###########
+# Installation: brew install fzf
+# To install useful key bindings and fuzzy completion: $(brew --prefix)/opt/fzf/install
+# GitHub: https://github.com/junegunn/fzf#using-homebrew
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+########### lf ###########
+# Installation: brew install lf
+LFCD="/Users/sartnara/.config/lf/lfcd.sh"
+if [ -f "$LFCD" ]; then
+    source "$LFCD"
+fi
+

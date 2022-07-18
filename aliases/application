@@ -1,0 +1,5 @@
+#!/bin/sh
+
+alias ls="lsd"
+alias vim="nvim"
+alias lf='lfcd'

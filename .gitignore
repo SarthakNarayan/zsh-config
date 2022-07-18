@@ -1,0 +1,5 @@
+.zsh_history
+.zhistory
+plugins
+.zcompdump*
+specific
