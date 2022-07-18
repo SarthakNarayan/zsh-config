@@ -18,5 +18,6 @@ autoload -Uz compinit && compinit
 
 zstyle ':completion:*' menu select # menu like movement
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' # tab completion case insensitive
+zstyle ':completion:*' list-colors '' # having colored folders
 zmodload zsh/complist
 _comp_options+=(globdots)		# Include hidden files in tab completion
