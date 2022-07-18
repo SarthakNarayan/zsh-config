@@ -2,8 +2,8 @@
 
 ########### autojump ###########
 # Installation: brew install autojump
-# GitHub: https://github.com/wting/autojump 
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+# GitHub: https://github.com/wting/autojump
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 ########### fzf ###########
 # Installation: brew install fzf
@@ -13,8 +13,7 @@
 
 ########### lf ###########
 # Installation: brew install lf
-LFCD="/Users/sartnara/.config/lf/lfcd.sh"
+LFCD="$HOME/.config/lf/lfcd.sh"
 if [ -f "$LFCD" ]; then
-    source "$LFCD"
+	source "$LFCD"
 fi
-
