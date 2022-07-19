@@ -1,4 +1,4 @@
-For this to work `.zshenv` has to be there in the `$HOME` directory since this is where we will be setting the environment variables
+For this to work `.zprofile` has to be there in the `$HOME` directory since this is where we will be setting the environment variables. This can also be done in `$HOME/.zshenv`.
 
 ## Add the following to your `$HOME/.zprofile` file
 
@@ -29,3 +29,4 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 - https://thevaluable.dev/zsh-install-configure-mouseless/
 - https://www.youtube.com/watch?v=bTLYiNvRIVI
 - https://github.dev/Mach-OS/Machfiles/tree/master/zsh/.config/zsh
+- https://thevaluable.dev/zsh-completion-guide-examples/

@@ -13,9 +13,13 @@ setopt autocd extendedglob nomatch menucomplete
 setopt interactive_comments
 
 ############## completions ##############
+# To initialize the completion for the current session, you need to autoload the function compinit and to call it.
 autoload -Uz compinit && compinit
 # compinit #https://apple.stackexchange.com/questions/296477/my-command-line-says-complete13-command-not-found-compdef
 
+# You can configure many aspects of the completion system using the zsh module zstyle.
+# Define completers
+zstyle ':completion:*' completer _extensions _complete _approximate
 zstyle ':completion:*' menu select # menu like movement
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' # tab completion case insensitive
 zstyle ':completion:*' list-colors '' # having colored folders
