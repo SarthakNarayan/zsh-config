@@ -4,3 +4,4 @@ plugins
 .zcompdump*
 specific
 .zcompcache
+completions
