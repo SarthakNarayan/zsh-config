@@ -17,6 +17,8 @@ bindkey -v '^?' backward-delete-char # using backspace to delete
 bindkey -M viins 'jk' vi-cmd-mode # remaping esc to jk
 
 # move to beginning and end of line
+# https://stackoverflow.com/questions/18042685/list-of-zsh-bindkey-commands
+# https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html
 bindkey -M vicmd 'H' beginning-of-line
 bindkey -M vicmd 'L' end-of-line
 
