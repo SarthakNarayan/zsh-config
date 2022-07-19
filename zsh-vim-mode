@@ -16,6 +16,10 @@ bindkey -M menuselect '^[[Z' vi-up-line-or-history
 bindkey -v '^?' backward-delete-char # using backspace to delete
 bindkey -M viins 'jk' vi-cmd-mode # remaping esc to jk
 
+# move to beginning and end of line
+bindkey -M vicmd 'H' beginning-of-line
+bindkey -M vicmd 'L' end-of-line
+
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
     case $KEYMAP in

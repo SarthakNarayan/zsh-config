@@ -11,7 +11,9 @@ trash $ZDOTDIR/.zcompdump; compinit
 ```
 
 - You can check if completions are loaded or not using `which _brew` (to check if brew completions are loaded)
+- If you want to have some completions that were not installed while installing the program (in my case while installing `lsd` I found out that `_lsd` was not present) then get it and place it inside `$ZDOTDIR/completions` folder.
 
 ## References
+
 - https://stackoverflow.com/questions/26462667/git-completion-not-working-in-zsh-on-os-x-yosemite-with-homebrew
 - https://stackoverflow.com/questions/65747286/zsh-problem-compinit503-no-such-file-or-directory-usr-local-share-zsh-site

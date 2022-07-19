@@ -14,7 +14,8 @@ setopt interactive_comments
 
 ############## completions ##############
 # To initialize the completion for the current session, you need to autoload the function compinit and to call it.
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+compinit # for zstyle to work
 # compinit #https://apple.stackexchange.com/questions/296477/my-command-line-says-complete13-command-not-found-compdef
 
 # You can configure many aspects of the completion system using the zsh module zstyle.
