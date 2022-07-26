@@ -7,3 +7,4 @@ alias history="history -t '%F'"
 #alias history="history -t '%F %T'"
 alias cp="cp -v"
 alias mv="mv -v"
+alias path="print -l $path" #print path in a human readable way
