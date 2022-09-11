@@ -16,7 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 # export PATH=$MAVEN_HOME/bin:$PATH
 
 # java
-# export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # go path
 export PATH="$HOME/go/bin:$PATH"
