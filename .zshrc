@@ -39,3 +39,7 @@ compinit # even though present in settings/core for some reason I have to call i
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
 complete -C '$(which aws_completer)' aws
+
+# Gcloud completions
+source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+
